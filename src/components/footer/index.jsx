@@ -2,7 +2,7 @@ import { Social, Apple, Google, Logo, LogoWhite } from "../../assets";
 
 export default function Header() {
     return (
-        <footer className="h-full w-full bg-red text-white flex flex-col justify-center items-center">
+        <footer className="h-full xl:h-[45vh] w-full bg-red text-white flex flex-col justify-center items-center">
             <div className="w-full max-w-screen-xl mx-auto p-4">
                 <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-7 text-xl">
                     <p>Home</p>

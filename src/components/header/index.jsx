@@ -29,7 +29,7 @@ export default function Header() {
     }, [windowDimensions]);
 
     return (
-        <header className="fixed w-full h-[100px] flex justify-end lg:justify-center items-center bg-white shadow-sm">
+        <header className="fixed w-full h-[100px] flex justify-end lg:justify-center items-center bg-white shadow-sm z-20">
             <figure className="absolute left-10"><img src={Logo} alt="" /></figure>
             <nav className="text-black font-medium">
             <div className="flex items-center pr-10 lg:hidden">
