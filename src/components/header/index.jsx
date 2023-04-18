@@ -29,21 +29,21 @@ export default function Header() {
     }, [windowDimensions]);
 
     return (
-        <header className="fixed w-full h-[100px] flex justify-end lg:justify-center items-center bg-white shadow-sm z-20">
-            <figure className="absolute left-10"><img src={Logo} alt="" /></figure>
+        <header className="fixed w-full h-[100px]  flex justify-end lg:justify-center items-center bg-white shadow-sm z-20">
+            <figure className="absolute w-screen left-10"><img className="w-32 lg:w-36 xl:w-44" src={Logo} alt="" /></figure>
             <nav className="text-black font-medium">
-            <div className="flex items-center pr-10 lg:hidden">
-                        <button
-                            onClick={() => setMenu(!menu)}
-                            type="button"
-                            className="inline-flex items-center text-sm text-black rounded-lg"
-                        >
-                            <List size={40} weight="bold" />
-                        </button>
-                    </div>
+                <div className="flex items-center pr-10 lg:hidden">
+                    <button
+                        onClick={() => setMenu(!menu)}
+                        type="button"
+                        className="inline-flex items-center text-sm text-black rounded-lg"
+                    >
+                        <List size={40} weight="bold" />
+                    </button>
+                </div>
 
                 <div onClick={() => setMenu(false)}
-                        className={`lg:flex justify-center ${menu ? "visible absolute top-[99px] right-0 w-full shadow-md text-center" : "hidden"}`}>
+                    className={`lg:flex justify-center ${menu ? "visible absolute top-[99px] right-0 w-full shadow-md text-center" : "hidden"}`}>
                     <div className="bg-white flex lg:flex-row flex-col text-lg gap-2 lg:gap-5">
                         <Link to={'/'}>Home</Link>
                         <Link to={'/'}>Empresas</Link>
