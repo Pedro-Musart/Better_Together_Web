@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from '../pages/home'
 import Action from '../pages/action'
-import Blood from '../pages/blood'
+import Donation from '../pages/donation'
 
 export default function Router() {
     return (
@@ -10,7 +10,7 @@ export default function Router() {
                 <Route path="*" element={<Navigate replace to="/" />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/action" element={<Action />} />
-                <Route path="/blood-donation" element={<Blood />} />
+                <Route path="/donation" element={<Donation />} />
             </Route>
         </Routes>
     )

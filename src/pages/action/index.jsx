@@ -10,12 +10,12 @@ export default function Action() {
                 <section className="flex flex-wrap justify-evenly items-center gap-5">
                     <div className="max-w-sm bg-white border border-gray rounded-lg shadow">
                         <figure>
-                            <img className="rounded-t-lg w-[384px] h-[250px]" src={Sangue} alt="" />
+                            <img className="rounded-t-lg w-[384px] h-[250px]" src={Alimento} alt="" />
                         </figure>
                         <div className="p-5">
-                            <p className="mb-2 text-2xl font-medium tracking-tight text-gray-900">Doação de sangue em São Paulo</p>
+                            <p className="mb-2 text-2xl font-medium tracking-tight text-gray-900">Doação de alimentos para todas as regiões do Brasil</p>
 
-                            <Link to={'/blood-donation'} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red rounded-lg">
+                            <Link to={'/donation'} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red rounded-lg">
                                 Saber mais <ArrowRight className="inline ml-2" size={20} />
                             </Link>
                         </div>
@@ -23,10 +23,10 @@ export default function Action() {
 
                     <div className="max-w-sm bg-white border border-gray rounded-lg shadow">
                         <figure>
-                            <img className="rounded-t-lg w-[384px] h-[250px]" src={Alimento} alt="" />
+                            <img className="rounded-t-lg w-[384px] h-[250px]" src={Sangue} alt="" />
                         </figure>
                         <div className="p-5">
-                            <p className="mb-2 text-2xl font-medium tracking-tight text-gray-900">Doação de alimentos para todas as regiões do Brasil</p>
+                            <p className="mb-2 text-2xl font-medium tracking-tight text-gray-900">Doação de sangue em todo o Brasil</p>
 
                             <Link to={''} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red rounded-lg">
                                 Saber mais <ArrowRight className="inline ml-2" size={20} />
