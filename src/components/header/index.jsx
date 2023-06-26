@@ -46,6 +46,7 @@ export default function Header() {
                         className={`lg:flex justify-center ${menu ? "visible absolute top-[99px] right-0 w-full shadow-md text-center" : "hidden"}`}>
                     <div className="bg-white flex lg:flex-row flex-col text-lg gap-2 lg:gap-5">
                         <Link to={'/'}>Home</Link>
+                        <Link to={'/action'}>Ações</Link>
                         <Link to={'/'}>Empresas</Link>
                         <Link to={'/'}>Pessoas</Link>
                         <Link to={'/'}>Sobre Nós</Link>

@@ -57,3 +57,21 @@ export const UserFive = user5
 
 import user6 from './images/user6.png';
 export const UserSix = user6
+
+import alimentos from './images/alimentos.jpg';
+export const Alimento = alimentos
+
+import sangue from './images/sangue.jpg';
+export const Sangue = sangue
+
+import roupas from './images/roupas.jpg';
+export const Roupa = roupas
+
+import exercicio from './images/exercicios.jpg';
+export const Exercicio = exercicio
+
+import bicicleta from './images/bicicleta.jpg';
+export const Bicileta = bicicleta
+
+import meditar from './images/meditar.jpeg';
+export const Meditar = meditar
