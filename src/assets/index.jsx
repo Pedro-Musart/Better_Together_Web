@@ -7,10 +7,10 @@ export const DestaqueDois = destaqueDois
 import destaqueTres from './images/destaque-tres.png';
 export const DestaqueTres = destaqueTres
 
-import logo from './images/logo.png';
+import logo from './images/logo.svg';
 export const Logo = logo
 
-import logoWhite from './images/logo-white.png';
+import logoWhite from './images/logo-white.svg';
 export const LogoWhite = logoWhite
 
 import apple from './images/apple.png';

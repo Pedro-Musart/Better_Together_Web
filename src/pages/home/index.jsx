@@ -6,13 +6,13 @@ export default function Home() {
     return (
         <Layout>
             <article>
-                <section>
-                    <div className="flex flex-wrap md:flex-nowrap justify-between items-center text-center md:text-start px-5 lg:px-10">
+                <section className="mt-12 ">
+                    <div className="flex flex-wrap md:flex-nowrap  justify-between items-center text-center md:text-start px-5 lg:px-10">
                         <div>
-                            <p className="text-3xl lg:text-6xl xl:text-8xl font-bold uppercase">
+                            <p className="text-3xl lg:text-5xl xl:text-8xl font-bold uppercase text-black ">
                                 <span className="text-red">Una-se</span> para um <br /> <span className="text-green">mundo</span> melhor
                             </p>
-                            <p className="text-black md:text-xl pt-7 lg:pt-3">Aqui nós transformamos as boas atitudes em recompensas para você e para todos!</p>
+                            <p className="text-black md:text-2xl pt-7 lg:pt-3">Aqui nós transformamos as boas atitudes em recompensas para você e para todos!</p>
 
                             <figure className="flex justify-center md:justify-start gap-3 py-7 md:pt-12 lg:pt-10">
                                 <img src={Apple} alt="" className="w-[150px] md:w-[195px]" />
@@ -25,25 +25,25 @@ export default function Home() {
                         </figure>
                     </div>
 
-                    <div className="mt-10 lg:-mt-20 px-5 lg:px-10">
+                    <div className="mt-12 max-w-7xl lg:-mt-20 px-5 lg:px-10">
                         <p className="text-black text-3xl font-bold uppercase">Nosso serviço</p>
 
                         <div className="flex flex-wrap md:flex-nowrap gap-5 lg:gap-2 pt-5 lg:pt-7">
-                            <div className="p-2 bg-white rounded-lg shadow-lg">
+                            <div className="p-2 me-4 ">
                                 <MedalMilitary size={45} weight="fill" className="text-red" />
-                                <p className="pb-2 font-medium tracking-tight text-black text-xl">Pontue e ganhe prêmios</p>
+                                <p className="pb-2 font-medium tracking-tight text-black text-2xl">Pontue e ganhe prêmios</p>
                                 <p className="pb-2 text-gray text-lg">Mais do que pontos, uma chance de mudar o mundo e sair ganhando!</p>
                             </div>
 
-                            <div className="p-2 bg-white rounded-lg shadow-lg">
+                            <div className="p-2 me-4 ">
                                 <Buildings size={45} weight="fill" className="text-red" />
-                                <p className="pb-2 font-medium tracking-tight text-black text-xl">Contribua para a sociedade</p>
+                                <p className="pb-2 font-medium tracking-tight text-black text-2xl">Contribua para a sociedade</p>
                                 <p className="pb-2 text-gray text-lg">Pequenas ações, grandes transformações. Juntos, podemos fazer a diferença na sociedade!</p>
                             </div>
 
-                            <div className="p-2 bg-white rounded-lg shadow-lg">
+                            <div className="p-2 me-4">
                                 <Handshake size={45} weight="fill" className="text-red" />
-                                <p className="pb-2 font-medium tracking-tight text-black text-xl">Crie valor para a sua empresa</p>
+                                <p className="pb-2 font-medium tracking-tight text-black text-2xl">Crie valor para a sua empresa</p>
                                 <p className="pb-2 text-gray text-lg">Invista em responsabilidade social corporativa e faça sua empresa crescer de forma sustentável!</p>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ export default function Home() {
                         </figure>
 
                         <div className="flex-1 text-lg">
-                            <p className="text-4xl xl:text-5xl font-semibold pb-5 text-center lg:text-start">Cadastre sua empresa!</p>
+                            <p className="text-4xl xl:text-5xl font-semibold pb-5 text-center text-black lg:text-start">Cadastre sua empresa!</p>
                             <p className="py-5">
                                 Com a nossa solução, sua corporação tem a oportunidade de criar um ambiente de trabalho
                                 mais engajador e responsável socialmente. Ao incentivar os funcionários a realizar ações
@@ -72,14 +72,16 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="pt-10 px-5 lg:px-10">
-                        <p className="text-4xl xl:text-5xl font-semibold">Empresas Parceiras</p>
+                    <div className="py-14 lg:py-24 md:py-12   relative bottom-0 left-0 px-5 lg:px-10">
+                        <p className="text-4xl text-black xl:text-5xl font-semibold">Empresas Parceiras</p>
                         <p className="py-5 text-lg">
                             Confira algumas das empresas que já adotaram a nossa plataforma para aumentar <br />
                             o engajamento dos funcionários e a responsabilidade social corporativa.
                         </p>
 
-                        <div className="flex items-center">
+
+
+                        <div className="flex  absolute w-11/12 left-1/2 transform -translate-x-1/2 items-center">
                             <ArrowCircleLeft size={50} weight="fill" className="text-red mb-7" />
                             <figure className="w-full flex justify-evenly overflow-x-hidden">
                                 <img src={Microsoft} alt="" className="w-[150px] lg:w-[200px] xl:w-[300px]" />
@@ -92,9 +94,10 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="flex flex-wrap items-center justify-center pt-10 px-5 lg:px-10 bg-[#F2F2F2]">
+
+                    <div className="flex flex-wrap items-center justify-center pt-24 px-5 lg:px-10 bg-[#F2F2F2]">
                         <div className="flex-1 text-lg">
-                            <p className="text-4xl xl:text-5xl font-semibold pb-5 text-center lg:text-start">Histórias Inspiradoras</p>
+                            <p className="text-4xl xl:text-5xl font-semibold pb-5 text-center text-black lg:text-start">Histórias Inspiradoras</p>
                             <p className="py-5">
                                 Nossa plataforma tem o poder de transformar vidas e impactar positivamente a sociedade.
                             </p>
@@ -108,12 +111,12 @@ export default function Home() {
                         </figure>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row justify-center py-10 px-5 lg:px-10 bg-[#F2F2F2]">
+                    <div className="flex flex-col pb-36 lg:flex-row justify-center py-10 px-5 lg:px-10 bg-[#F2F2F2]">
                         <div className="flex-1 hidden md:flex justify-center items-center lg:flex-col">
                             <figure className="self-end xl:pr-20">
                                 <img src={UserOne} alt="" />
                             </figure>
-                            <figure  className="self-start">
+                            <figure className="self-start">
                                 <img src={UserTwo} alt="" />
                             </figure>
                             <figure className="self-end xl:pr-10">
@@ -122,14 +125,14 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <p className="text-4xl xl:text-5xl font-semibold text-center">Relatos de Usuários</p>
+                            <p className="text-4xl xl:text-5xl font-semibold text-center text-black">Relatos de Usuários</p>
                             <p className="py-5 text-center text-lg">Acompanhe esses relatos inspiradores e veja como pequenas ações podem <br /> fazer uma grande diferença no mundo</p>
 
-                            <div className="hidden md:flex justify-center items-center relative ">
+                            <div className="hidden my-12 md:flex justify-center items-center relative ">
                                 <figure className="relative -mr-14">
-                                    <img src={User} alt=""/>
+                                    <img src={User} alt="" />
                                 </figure>
-                                <p className="bg-white shadow-lg rounded-md text-lg max-w-xl py-10 pr-10 pl-20">
+                                <p className="bg-white shadow-lg rounded-2xl text-lg max-w-xl py-10 pr-10 pl-20">
                                     Eu sempre quis ajudar a comunidade de alguma forma, mas não sabia por onde começar. <br />
                                     Foi quando descobri a Better Together e me cadastrei na plataforma. Desde então, já participei de diversas ações, como doação de sangue e voluntariado em hospitais. <br />
                                     E o melhor de tudo é que, além de me sentir bem em ajudar, ainda ganho pontos que posso trocar por prêmios na minha empresa. Recomendo a todos!
@@ -138,7 +141,7 @@ export default function Home() {
 
                             <div className="flex flex-col md:hidden justify-center items-center relative ">
                                 <figure className="pb-5">
-                                    <img src={User} alt=""/>
+                                    <img src={User} alt="" />
                                 </figure>
 
                                 <p className="bg-white shadow-lg rounded-md text-lg max-w-xl p-5">
