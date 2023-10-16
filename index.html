@@ -9,5 +9,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cloud.openchat.so/chat.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var chatConfig = {
+        token: "ElnEkJpMHREDHCNYQ1pJ",
+        };
+        initializeChatWidget(chatConfig);
+    });
+    </script>
   </body>
 </html>
